@@ -14,5 +14,5 @@ ansible-playbook ./playbooks/sonarqube.yaml \
   -e "sonarqube_volume_size=3Gi" \
   -e "sonarqube_ssl=True" \
   -e "sonarqube_image_tag=7.9.1" \
-  -e "sonarqube_route=sonarqube.apps.shared-dev.dev.openshift.opentlc.com" \
+  -e "sonarqube_route=sonarqube-kcb-devops-framework.apps.test.aro.kcbgroup.com" \
   -e '{"meta": {"namespace":"kcb-devops-framework","name":"sonarqube"}}'
